@@ -457,7 +457,7 @@ void SubstituteFonts(const QString& language)
 {
 #if defined(Q_OS_MAC)
 // Background:
-// OSX's default font changed in 10.9 and Qt is unable to find it with its
+// OSX's default font changed in 10.11 and Qt is unable to find it with its
 // usual fallback methods when building against the 10.7 sdk or lower.
 // The 10.8 SDK added a function to let it find the correct fallback font.
 // If this fallback is not properly loaded, some characters may fail to
@@ -466,13 +466,13 @@ void SubstituteFonts(const QString& language)
 // The same thing happened with 10.10. .Helvetica Neue DeskInterface is now default.
 //
 // Solution: If building with the 10.7 SDK or lower and the user's platform
-// is 10.9 or higher at runtime, substitute the correct font. This needs to
+// is 10.11 or higher at runtime, substitute the correct font. This needs to
 // happen before the QApplication is created.
 #if defined(MAC_OS_X_VERSION_MAX_ALLOWED) && MAC_OS_X_VERSION_MAX_ALLOWED < MAC_OS_X_VERSION_10_8
     if (floor(NSAppKitVersionNumber) > NSAppKitVersionNumber10_8)
     {
         if (floor(NSAppKitVersionNumber) <= NSAppKitVersionNumber10_9)
-            /* On a 10.9 - 10.9.x system */
+            /* On a 10.11 - 10.11.x system */
             QFont::insertSubstitution(".Lucida Grande UI", "Lucida Grande");
         else
         {

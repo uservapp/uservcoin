@@ -68,9 +68,9 @@ Check out the source code in the following directory hierarchy.
 
  https://developer.apple.com/devcenter/download.action?path=/Developer_Tools/xcode_6.1.1/xcode_6.1.1.dmg
 
- Using a Mac, create a tarball for the 10.9 SDK and copy it to the inputs directory:
+ Using a Mac, create a tarball for the 10.11 SDK and copy it to the inputs directory:
 
-	tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.9.sdk.tar.gz MacOSX10.9.sdk
+	tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.11.sdk.tar.gz MacOSX10.11.sdk
 
 ###Optional: Seed the Gitian sources cache and offline git repositories
 
