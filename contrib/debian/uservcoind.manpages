@@ -1,0 +1,3 @@
+debian/manpages/uservcoind.1
+debian/manpages/uservcoin.conf.5
+debian/manpages/uservcoin-cli.1
