@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017-2018 The Bitcoin Green developers
-// Copyright (c) 2018 The UservCoin developers
+// Copyright (c) 2018 The UserV developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -49,10 +49,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("UservCoin Core uservcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("UserV Core userv-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  uservcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded uservcoin transaction") + "\n" +
-                               "  uservcoin-tx [options] -create [commands]   " + _("Create hex-encoded uservcoin transaction") + "\n" +
+                               "  userv-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded userv transaction") + "\n" +
+                               "  userv-tx [options] -create [commands]   " + _("Create hex-encoded userv transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -554,7 +554,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded uservcoin transaction
+            // param: hex-encoded userv transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

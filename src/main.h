@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017-2018 The Bitcoin Green developers
-// Copyright (c) 2018 The UservCoin developers
+// Copyright (c) 2018 The UserV developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,7 +11,7 @@
 #define BITCOIN_MAIN_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/uservcoin-config.h"
+#include "config/userv-config.h"
 #endif
 
 #include "amount.h"

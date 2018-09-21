@@ -1,6 +1,6 @@
 [Protocol]
-exec=uservcoin-qt '%u'
-protocol=uservcoin
+exec=userv-qt '%u'
+protocol=userv
 input=none
 output=none
 helper=true

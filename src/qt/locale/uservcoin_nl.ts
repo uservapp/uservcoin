@@ -168,8 +168,8 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw USERVs stelen.</translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw USERVs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -590,16 +590,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Kern</translation>
+        <source>UserV Core</source>
+        <translation>UserV Kern</translation>
     </message>
     <message>
         <source>Send coins to a USERV address</source>
         <translation>Verstuur munten naar een USERV adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en uservcoin: URI's)</translation>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en userv: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,16 +610,16 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin Core</source>
-        <translation>&amp;Over UservCoin Kern</translation>
+        <source>&amp;About UserV Core</source>
+        <translation>&amp;Over UserV Kern</translation>
     </message>
     <message>
-        <source>Show information about UservCoin Core</source>
-        <translation>Toon informatie over UservCoin Kern</translation>
+        <source>Show information about UserV Core</source>
+        <translation>Toon informatie over UserV Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for UservCoin</source>
-        <translation>Wijzig UservCoin configuratie opties</translation>
+        <source>Modify configuration options for UserV</source>
+        <translation>Wijzig UserV configuratie opties</translation>
     </message>
     <message>
         <source>Sign messages with your USERV addresses to prove you own them</source>
@@ -658,8 +658,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a uservcoin: URI or payment request</source>
-        <translation>Open een uservcoin: URI of betaalverzoek</translation>
+        <source>Open a userv: URI or payment request</source>
+        <translation>Open een userv: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>UservCoin Core client</source>
-        <translation>UservCoin Core client</translation>
+        <source>UserV Core client</source>
+        <translation>UserV Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to UservCoin network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het UservCoin netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het UservCoin netwerk</numerusform></translation>
+        <source>%n active connection(s) to UserV network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het UserV netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het UserV netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -817,8 +817,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (uservcoin.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (uservcoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (userv.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (userv.conf).</translation>
     </message>
 </context>
 <context>
@@ -1064,16 +1064,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Kern</translation>
+        <source>UserV Core</source>
+        <translation>UserV Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About UservCoin Core</source>
-        <translation>Over UservCoin Core</translation>
+        <source>About UserV Core</source>
+        <translation>Over UserV Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1103,16 +1103,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to UservCoin Core.</source>
-        <translation>Welkom bij UservCoin Core</translation>
+        <source>Welcome to UserV Core.</source>
+        <translation>Welkom bij UserV Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Kern</translation>
+        <source>UserV Core</source>
+        <translation>UserV Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1309,20 +1309,20 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start UservCoin after logging in to the system.</source>
-        <translation>UservCoin automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start UserV after logging in to the system.</source>
+        <translation>UserV automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start UservCoin on system login</source>
-        <translation>&amp;UservCoin starten bij systeemlogin</translation>
+        <source>&amp;Start UserV on system login</source>
+        <translation>&amp;UserV starten bij systeemlogin</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting UservCoin.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van UservCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting UserV.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van UserV.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1675,8 +1675,8 @@ MultiSend: %1</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the UservCoin RPC console.</source>
-        <translation>Welkom bij de UservCoin RPC console.</translation>
+        <source>Welcome to the UserV RPC console.</source>
+        <translation>Welkom bij de UserV RPC console.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2081,8 +2081,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>UservCoin Core is shutting down...</source>
-        <translation>UservCoin Core is aan het afsluiten...</translation>
+        <source>UserV Core is shutting down...</source>
+        <translation>UserV Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2211,8 +2211,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Kern</translation>
+        <source>UserV Core</source>
+        <translation>UserV Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2231,8 +2231,8 @@ MultiSend: %1</translation>
         <translation>De PIVX Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The UservCoin Core developers</source>
-        <translation>De UservCoin Core ontwikkelaars</translation>
+        <source>The UserV Core developers</source>
+        <translation>De UserV Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2583,7 +2583,7 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>
@@ -2625,8 +2625,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The UservCoin Core Developers</source>
-        <translation>Copyright (C) 2017-%i The UservCoin Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2017-%i The UserV Core Developers</source>
+        <translation>Copyright (C) 2017-%i The UserV Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>

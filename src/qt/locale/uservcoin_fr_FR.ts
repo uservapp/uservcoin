@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos USERVs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos USERVs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (uservcoin.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (uservcoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (userv.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (userv.conf).</translation>
     </message>
 </context>
 <context>
@@ -1679,7 +1679,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

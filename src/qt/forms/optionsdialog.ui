@@ -30,10 +30,10 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-          <string>Automatically start UservCoin after logging in to the system.</string>
+          <string>Automatically start UserV after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start UservCoin on system login</string>
+          <string>&amp;Start UserV on system login</string>
          </property>
         </widget>
        </item>
@@ -220,7 +220,7 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
-          <string>Automatically open the UservCoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+          <string>Automatically open the UserV client port on the router. This only works when your router supports UPnP and it is enabled.</string>
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -240,7 +240,7 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
-          <string>Connect to the UservCoin network through a SOCKS5 proxy.</string>
+          <string>Connect to the UserV network through a SOCKS5 proxy.</string>
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS5 proxy (default proxy):</string>
@@ -406,7 +406,7 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-            <string>The user interface language can be set here. This setting will take effect after restarting UservCoin.</string>
+            <string>The user interface language can be set here. This setting will take effect after restarting UserV.</string>
            </property>
           </widget>
          </item>

@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017-2018 The Bitcoin Green developers
-// Copyright (c) 2018 The UservCoin developers
+// Copyright (c) 2018 The UserV developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -27,8 +27,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called UservCoin (http://uservcoin.com/),
- * which enables instant payments to anyone, anywhere in the world. UservCoin uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called UserV (http://uservcoin.com/),
+ * which enables instant payments to anyone, anywhere in the world. UserV uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -68,18 +68,18 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/uservcoin.conf are parsed in qt/uservcoin.cpp's main()
+    // If Qt is used, parameters/userv.conf are parsed in qt/userv.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("UservCoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("UserV Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  uservcoind [options]                     " + _("Start UservCoin Core Daemon") + "\n";
+                        "  uservd [options]                     " + _("Start UserV Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -115,17 +115,17 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "uservcoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "userv:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in uservcoind anymore. Use the uservcoin-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in uservd anymore. Use the userv-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "UservCoin server starting\n");
+            fprintf(stdout, "UserV server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -178,7 +178,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect uservcoin signal handlers
+    // Connect userv signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

@@ -831,12 +831,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 	border:0;
 }
 
-/* About UservCoin Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About UservCoin Contents */
+/* About UserV Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About UserV Contents */
 	margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About UservCoin text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About UserV text */
 	margin-right:10px;
 }
 
@@ -864,7 +864,7 @@ QLabel#labelOverviewHeaderLeft {
 
 QLabel#bg_logo {
 	qproperty-alignment: 'AlignVCenter | AlignRight';
-	background-image: url(':/images/uservcoin_logo');
+	background-image: url(':/images/userv_logo');
 	background-repeat: no-repeat;
 }
 

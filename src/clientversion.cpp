@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both uservcoind and uservcoin-qt, to make it harder for attackers to
+ * for both uservd and userv-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("UservCoin Core");
+const std::string CLIENT_NAME("UserV Core");
 
 /**
  * Client version number

@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=UservCoin
-Comment=UservCoin P2P Cryptocurrency
-Exec=uservcoin-qt %u
+Name=UserV
+Comment=UserV P2P Cryptocurrency
+Exec=userv-qt %u
 Terminal=false
 Type=Application
-Icon=uservcoin128
-MimeType=x-scheme-handler/uservcoin;
+Icon=userv128
+MimeType=x-scheme-handler/userv;
 Categories=Office;Finance;
-Name[en_US]=uservcoin-qt.desktop
+Name[en_US]=userv-qt.desktop

@@ -176,8 +176,8 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus USERVs no sean robados mediante malware de su ordenador.</translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus USERVs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -602,15 +602,15 @@
         <translation>Herramienta de pestañas</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>Núcleo UservCoin</translation>
+        <source>UserV Core</source>
+        <translation>Núcleo UserV</translation>
     </message>
     <message>
         <source>Send coins to a USERV address</source>
         <translation>Enviar coins a una dirección USERV</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -626,16 +626,16 @@
         <translation>Explorar nodos maestros</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin Core</source>
-        <translation>&amp;Sobre el núcleo de UservCoin</translation>
+        <source>&amp;About UserV Core</source>
+        <translation>&amp;Sobre el núcleo de UserV</translation>
     </message>
     <message>
-        <source>Show information about UservCoin Core</source>
-        <translation>Mostrar información sobre el núcleo de UservCoin</translation>
+        <source>Show information about UserV Core</source>
+        <translation>Mostrar información sobre el núcleo de UserV</translation>
     </message>
     <message>
-        <source>Modify configuration options for UservCoin</source>
-        <translation>Modificar las opciones de configuración de UservCoin</translation>
+        <source>Modify configuration options for UserV</source>
+        <translation>Modificar las opciones de configuración de UserV</translation>
     </message>
     <message>
         <source>Sign messages with your USERV addresses to prove you own them</source>
@@ -674,8 +674,8 @@
         <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
-        <source>Open a uservcoin: URI or payment request</source>
-        <translation>Abrir un uservcoin: URI o solicitud de pago</translation>
+        <source>Open a userv: URI or payment request</source>
+        <translation>Abrir un userv: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,12 +686,12 @@
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
-        <source>Show the UservCoin Core help message to get a list with possible UservCoin command-line options</source>
-        <translation>Mostrar la ayuda de UservCoin Core para obtener una lista de posibles opciones en línea de comandos</translation>
+        <source>Show the UserV Core help message to get a list with possible UserV command-line options</source>
+        <translation>Mostrar la ayuda de UserV Core para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
-        <source>UservCoin Core client</source>
-        <translation>Cliente UservCoin Core</translation>
+        <source>UserV Core client</source>
+        <translation>Cliente UserV Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -825,8 +825,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (uservcoin.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (uservcoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (userv.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (userv.conf).</translation>
     </message>
 </context>
 <context>
@@ -1160,16 +1160,16 @@ MultiEnvío: %1</translation>
         <translation>versión</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>Núcleo UservCoin</translation>
+        <source>UserV Core</source>
+        <translation>Núcleo UserV</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About UservCoin Core</source>
-        <translation>Acerca de UservCoin Core</translation>
+        <source>About UserV Core</source>
+        <translation>Acerca de UserV Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1215,16 +1215,16 @@ MultiEnvío: %1</translation>
         <translation>Bienvenido/a</translation>
     </message>
     <message>
-        <source>Welcome to UservCoin Core.</source>
-        <translation>Bienvenido/a a UservCoin Core.</translation>
+        <source>Welcome to UserV Core.</source>
+        <translation>Bienvenido/a a UserV Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where UservCoin Core will store its data.</source>
-        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará UservCoin Core sus datos.</translation>
+        <source>As this is the first time the program is launched, you can choose where UserV Core will store its data.</source>
+        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará UserV Core sus datos.</translation>
     </message>
     <message>
-        <source>UservCoin Core will download and store a copy of the UservCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>UservCoin Core descargará y guardará una copia de la cadena de bloques UservCoin. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+        <source>UserV Core will download and store a copy of the UserV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>UserV Core descargará y guardará una copia de la cadena de bloques UserV. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1235,8 +1235,8 @@ MultiEnvío: %1</translation>
         <translation>Usar una carpeta de datos personalizada:</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>Núcleo UservCoin</translation>
+        <source>UserV Core</source>
+        <translation>Núcleo UserV</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1555,8 +1555,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
-        <source>Automatically open the UservCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente UservCoin en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
+        <source>Automatically open the UserV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente UserV en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1575,12 +1575,12 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically start UservCoin after logging in to the system.</source>
-        <translation>Arrancar UservCoin automáticamente después de identificarse en Windows.</translation>
+        <source>Automatically start UserV after logging in to the system.</source>
+        <translation>Arrancar UserV automáticamente después de identificarse en Windows.</translation>
     </message>
     <message>
-        <source>&amp;Start UservCoin on system login</source>
-        <translation>&amp;Arrancar UservCoin al inicio del sistema</translation>
+        <source>&amp;Start UserV on system login</source>
+        <translation>&amp;Arrancar UserV al inicio del sistema</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1607,16 +1607,16 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting UservCoin.</source>
-        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar UservCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting UserV.</source>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar UserV.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the UservCoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red UservCoin mediante un proxy SOCKS5.</translation>
+        <source>Connect to the UserV network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red UserV mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1770,8 +1770,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Recompensa de participación o de nodo maestro que aún no ha madurado</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UservCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red UservCoin después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UserV network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red UserV después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1837,8 +1837,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start uservcoin: click-to-pay handler</source>
-        <translation>No se puede iniciar uservcoin: módulo click-to-pay</translation>
+        <source>Cannot start userv: click-to-pay handler</source>
+        <translation>No se puede iniciar userv: módulo click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid USERV address or malformed URI parameters.</source>
@@ -2061,8 +2061,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Cadena de bloques</translation>
     </message>
     <message>
-        <source>Open the UservCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir el fichero de depuración UservCoin en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+        <source>Open the UserV debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir el fichero de depuración UserV en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2229,8 +2229,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the UservCoin RPC console.</source>
-        <translation>Bienvenido a la consola RPC de UservCoin.</translation>
+        <source>Welcome to the UserV RPC console.</source>
+        <translation>Bienvenido a la consola RPC de UserV.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2300,12 +2300,12 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UservCoin network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red UservCoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UserV network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red UserV.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UservCoin network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red UservCoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UserV network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red UserV.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2581,8 +2581,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Si la comisión personalizada se fija en 1000 uSPs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSPs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSPs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for UservCoin transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones UservCoin de las que la red puede procesar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for UserV transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones UserV de las que la red puede procesar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2816,8 +2816,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the uservcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the UservCoin network.</source>
-        <translation>Un mensaje adjunto al uservcoin: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red UservCoin.</translation>
+        <source>A message that was attached to the userv: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the UserV network.</source>
+        <translation>Un mensaje adjunto al userv: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red UserV.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2843,8 +2843,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>UservCoin Core is shutting down...</source>
-        <translation>El programa UservCoin se está cerrando...</translation>
+        <source>UserV Core is shutting down...</source>
+        <translation>El programa UserV se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2993,8 +2993,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>Núcleo UservCoin</translation>
+        <source>UserV Core</source>
+        <translation>Núcleo UserV</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3013,8 +3013,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Los desarrolladores de PIVX Core</translation>
     </message>
     <message>
-        <source>The UservCoin Core developers</source>
-        <translation>Los desarrolladores de UservCoin Core</translation>
+        <source>The UserV Core developers</source>
+        <translation>Los desarrolladores de UserV Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3545,7 +3545,7 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
 </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -3571,8 +3571,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Escuchar únicamente a la tarjeta de red indicada para conexiones JSON-RPC. Use la notación [host]:puerto para IPv6. Esta opción puede ser especificada varias veces (por defecto: escuchar en todas las tarjetas de red)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. UservCoin Core is probably already running.</source>
-        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. UservCoin Core esta probablemente en ejecución.</translation>
+        <source>Cannot obtain a lock on data directory %s. UserV Core is probably already running.</source>
+        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. UserV Core esta probablemente en ejecución.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3591,8 +3591,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Borrar todas las transacciones del monedero y solo recuperar partes de la cadena de bloque a traves de -rescan al inicio.</translation>
     </message>
     <message>
-        <source>Disable all UservCoin specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar toda la funcionalidad especifica UservCoin (Masternodes, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
+        <source>Disable all UserV specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar toda la funcionalidad especifica UserV (Masternodes, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3727,32 +3727,32 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use uservcoind, or the -server option to uservcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use uservd, or the -server option to userv-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=uservcoinrpc
+rpcuser=uservrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "UservCoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "UserV Alert" admin@foo.com
 </source>
-        <translation>Para usar uservcoind, o la opción -server de uservcoin-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar uservd, o la opción -server de userv-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
-rpcuser=uservcoinrpc
+rpcuser=uservrpc
 rpcrpcpassword=%s
 (No necesitas recordar esta contraseña)
 El nombre de usuario y contraseña NO DEBEN ser los mismos.
 Si el archivo no existe, crearlo con permisos de solo lectura para el propietario.
 También es recomendado definir alertnotify de manera que seas notificado de problemas;
-por ejemplo: alertnotify=echo %%s | mail -s "UservCoin Alert" admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s "UserV Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. UservCoin Core is probably already running.</source>
-        <translation>Imposible conectar a %s en esta computadora. Es probable que UservCoin Core ya este corriendo.</translation>
+        <source>Unable to bind to %s on this computer. UserV Core is probably already running.</source>
+        <translation>Imposible conectar a %s en esta computadora. Es probable que UserV Core ya este corriendo.</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 USERV.</source>
@@ -3771,8 +3771,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "UservCoin Alert" admin@foo.com
         <translation>Advertencia: -paytxfee esta muy alta! Esta es la comisión de transacción que pagarás si envías una transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong UservCoin Core will not work properly.</source>
-        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora UservCoin Core no funcionará adecuadamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong UserV Core will not work properly.</source>
+        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora UserV Core no funcionará adecuadamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3915,8 +3915,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "UservCoin Alert" admin@foo.com
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The UservCoin Core Developers</source>
-        <translation>Copyright (C) 2017-%i The UservCoin Core Developers</translation>
+        <source>Copyright (C) 2017-%i The UserV Core Developers</source>
+        <translation>Copyright (C) 2017-%i The UserV Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3987,8 +3987,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "UservCoin Alert" admin@foo.com
         <translation>Error al cargar wallet.dat: Billetera dañada</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of UservCoin Core</source>
-        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo UservCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of UserV Core</source>
+        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo UserV</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4091,8 +4091,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "UservCoin Alert" admin@foo.com
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. UservCoin Core is shutting down.</source>
-        <translation>La prueba de salud de inicialización ha fallado. UservCoin Core se cerrará.</translation>
+        <source>Initialization sanity check failed. UserV Core is shutting down.</source>
+        <translation>La prueba de salud de inicialización ha fallado. UserV Core se cerrará.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4663,8 +4663,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "UservCoin Alert" admin@foo.com
         <translation>Monedero bloqueado.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart UservCoin Core to complete</source>
-        <translation>Monedero necesita ser reescrito: reinicie UservCoin Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart UserV Core to complete</source>
+        <translation>Monedero necesita ser reescrito: reinicie UserV Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

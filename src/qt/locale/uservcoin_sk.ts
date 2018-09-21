@@ -176,8 +176,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše USERV pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše USERV pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -598,16 +598,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     <message>
         <source>Send coins to a USERV address</source>
         <translation>Odoslať mince na adresu USERV</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a uservcoin: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a userv: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,16 +618,16 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin Core</source>
-        <translation>O UservCoin Core</translation>
+        <source>&amp;About UserV Core</source>
+        <translation>O UserV Core</translation>
     </message>
     <message>
-        <source>Show information about UservCoin Core</source>
-        <translation>Zobraziť informácie o UservCoin Core</translation>
+        <source>Show information about UserV Core</source>
+        <translation>Zobraziť informácie o UserV Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for UservCoin</source>
-        <translation>Zmeňte možnosti konfigurácie pre UservCoin</translation>
+        <source>Modify configuration options for UserV</source>
+        <translation>Zmeňte možnosti konfigurácie pre UserV</translation>
     </message>
     <message>
         <source>Sign messages with your USERV addresses to prove you own them</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a uservcoin: URI or payment request</source>
-        <translation>Otvorte uservcoin: URI alebo žiadosť o platbu</translation>
+        <source>Open a userv: URI or payment request</source>
+        <translation>Otvorte userv: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the UservCoin Core help message to get a list with possible UservCoin command-line options</source>
-        <translation>Zobraziť pomocnú správu programu UservCoin Core a získajte zoznam možností príkazového riadka UservCoin</translation>
+        <source>Show the UserV Core help message to get a list with possible UserV command-line options</source>
+        <translation>Zobraziť pomocnú správu programu UserV Core a získajte zoznam možností príkazového riadka UserV</translation>
     </message>
     <message>
-        <source>UservCoin Core client</source>
-        <translation>UservCoin Core klient</translation>
+        <source>UserV Core client</source>
+        <translation>UserV Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (uservcoin.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (uservcoin.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (userv.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (userv.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -904,15 +904,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     </context>
 <context>
@@ -1253,7 +1253,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

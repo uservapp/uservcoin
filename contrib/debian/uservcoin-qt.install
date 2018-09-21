@@ -1,6 +1,6 @@
-usr/local/bin/uservcoin-qt usr/bin
+usr/local/bin/userv-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/uservcoin-qt.desktop usr/share/applications
-debian/uservcoin-qt.protocol usr/share/kde4/services/
+debian/userv-qt.desktop usr/share/applications
+debian/userv-qt.protocol usr/share/kde4/services/

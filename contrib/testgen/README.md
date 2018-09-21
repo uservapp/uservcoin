@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven UservCoin tests.
+Utilities to generate test vectors for the data-driven UserV tests.
 
 Usage: 
 

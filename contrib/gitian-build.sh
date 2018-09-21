@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the uservcoin, gitian-builder, gitian.sigs, and uservcoin-detached-sigs.
+Run this script from the directory containing the userv, gitian-builder, gitian.sigs, and userv-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./uservcoin
+pushd ./userv
 git fetch
 git checkout ${COMMIT}
 popd
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./uservcoin-binaries/${VERSION}
+	mkdir -p ./userv-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -271,7 +271,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../uservcoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../userv/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -281,7 +281,7 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit uservcoin=${COMMIT} --url uservcoin=${url} ../uservcoin/contrib/gitian-descriptors/gitian-linux.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../uservcoin/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/uservcoin-*.tar.gz build/out/src/uservcoin-*.tar.gz ../uservcoin-binaries/${VERSION}
+	    mv build/out/userv-*.tar.gz build/out/src/userv-*.tar.gz ../userv-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -291,8 +291,8 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit uservcoin=${COMMIT} --url uservcoin=${url} ../uservcoin/contrib/gitian-descriptors/gitian-win.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../uservcoin/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/uservcoin-*-win-unsigned.tar.gz inputs/uservcoin-win-unsigned.tar.gz
-	    mv build/out/uservcoin-*.zip build/out/uservcoin-*.exe ../uservcoin-binaries/${VERSION}
+	    mv build/out/userv-*-win-unsigned.tar.gz inputs/userv-win-unsigned.tar.gz
+	    mv build/out/userv-*.zip build/out/userv-*.exe ../userv-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -302,8 +302,8 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit uservcoin=${COMMIT} --url uservcoin=${url} ../uservcoin/contrib/gitian-descriptors/gitian-osx.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../uservcoin/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/uservcoin-*-osx-unsigned.tar.gz inputs/uservcoin-osx-unsigned.tar.gz
-	    mv build/out/uservcoin-*.tar.gz build/out/uservcoin-*.dmg ../uservcoin-binaries/${VERSION}
+	    mv build/out/userv-*-osx-unsigned.tar.gz inputs/userv-osx-unsigned.tar.gz
+	    mv build/out/userv-*.tar.gz build/out/userv-*.dmg ../userv-binaries/${VERSION}
 	fi
 	# AArch64
 	if [[ $aarch64 = true ]]
@@ -313,7 +313,7 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit uservcoin=${COMMIT} --url uservcoin=${url} ../uservcoin/contrib/gitian-descriptors/gitian-aarch64.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../uservcoin/contrib/gitian-descriptors/gitian-aarch64.yml
-	    mv build/out/uservcoin-*.tar.gz build/out/src/uservcoin-*.tar.gz ../uservcoin-binaries/${VERSION}
+	    mv build/out/userv-*.tar.gz build/out/src/userv-*.tar.gz ../userv-binaries/${VERSION}
 	popd
 
         if [[ $commitFiles = true ]]
@@ -382,8 +382,8 @@ then
 	    echo ""
 	    ./bin/gbuild -i --commit signature=${COMMIT} ../uservcoin/contrib/gitian-descriptors/gitian-win-signer.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../uservcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/uservcoin-*win64-setup.exe ../uservcoin-binaries/${VERSION}
-	    mv build/out/uservcoin-*win32-setup.exe ../uservcoin-binaries/${VERSION}
+	    mv build/out/userv-*win64-setup.exe ../userv-binaries/${VERSION}
+	    mv build/out/userv-*win32-setup.exe ../userv-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -393,7 +393,7 @@ then
 	    echo ""
 	    ./bin/gbuild -i --commit signature=${COMMIT} ../uservcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../uservcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/uservcoin-osx-signed.dmg ../uservcoin-binaries/${VERSION}/uservcoin-${VERSION}-osx.dmg
+	    mv build/out/userv-osx-signed.dmg ../userv-binaries/${VERSION}/userv-${VERSION}-osx.dmg
 	fi
 	popd
 

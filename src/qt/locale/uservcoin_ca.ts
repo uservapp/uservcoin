@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>UservCoin</source>
-        <translation>UservCoin</translation>
+        <source>UserV</source>
+        <translation>UserV</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin</source>
-        <translation>&amp;Sobre UservCoin</translation>
+        <source>&amp;About UserV</source>
+        <translation>&amp;Sobre UserV</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     <message>
-        <source>About UservCoin Core</source>
-        <translation>Sobre UservCoin Core</translation>
+        <source>About UserV Core</source>
+        <translation>Sobre UserV Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to UservCoin Core.</source>
-        <translation>Benvingut a UservCoin Core.</translation>
+        <source>Welcome to UserV Core.</source>
+        <translation>Benvingut a UserV Core.</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1101,8 +1101,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1253,7 +1253,7 @@
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

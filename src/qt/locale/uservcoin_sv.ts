@@ -160,8 +160,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina USERVs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina USERVs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Kärna</translation>
+        <source>UserV Core</source>
+        <translation>UserV Kärna</translation>
     </message>
     <message>
         <source>Send coins to a USERV address</source>
         <translation>Skicka mynt till en USERV adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och uservcoin: URls)</translation>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och userv: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,16 +603,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin Core</source>
-        <translation>Om UservCoin Kärnan</translation>
+        <source>&amp;About UserV Core</source>
+        <translation>Om UserV Kärnan</translation>
     </message>
     <message>
-        <source>Show information about UservCoin Core</source>
-        <translation>Visa information om UservCoin Kärnan</translation>
+        <source>Show information about UserV Core</source>
+        <translation>Visa information om UserV Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for UservCoin</source>
-        <translation>Ändra konfigurationsval för UservCoin</translation>
+        <source>Modify configuration options for UserV</source>
+        <translation>Ändra konfigurationsval för UserV</translation>
     </message>
     <message>
         <source>Sign messages with your USERV addresses to prove you own them</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>UservCoin Core client</source>
-        <translation>UservCoin kärn klient</translation>
+        <source>UserV Core client</source>
+        <translation>UserV kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Kärna</translation>
+        <source>UserV Core</source>
+        <translation>UserV Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Kärna</translation>
+        <source>UserV Core</source>
+        <translation>UserV Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1170,8 +1170,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Kärna</translation>
+        <source>UserV Core</source>
+        <translation>UserV Kärna</translation>
     </message>
     </context>
 <context>
@@ -1354,7 +1354,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

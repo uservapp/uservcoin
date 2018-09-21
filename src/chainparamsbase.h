@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between uservcoin-cli and uservcoind)
- * of a given instance of the UservCoin system.
+ * CBaseChainParams defines the base parameters (shared between userv-cli and uservd)
+ * of a given instance of the UserV system.
  */
 class CBaseChainParams
 {

@@ -1,33 +1,33 @@
-bin_PROGRAMS += qt/uservcoin-qt
+bin_PROGRAMS += qt/userv-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# uservcoin qt core #
+# userv qt core #
 QT_TS = \
-  qt/locale/uservcoin_bg.ts \
-  qt/locale/uservcoin_ca.ts \
-  qt/locale/uservcoin_cs.ts \
-  qt/locale/uservcoin_da.ts \
-  qt/locale/uservcoin_de.ts \
-  qt/locale/uservcoin_en.ts \
-  qt/locale/uservcoin_en_US.ts \
-  qt/locale/uservcoin_es.ts \
-  qt/locale/uservcoin_fi.ts \
-  qt/locale/uservcoin_fr_FR.ts \
-  qt/locale/uservcoin_it.ts \
-  qt/locale/uservcoin_ja.ts \
-  qt/locale/uservcoin_ko_KR.ts \
-  qt/locale/uservcoin_nl.ts \
-  qt/locale/uservcoin_pl.ts \
-  qt/locale/uservcoin_pt.ts \
-  qt/locale/uservcoin_pt_BR.ts \
-  qt/locale/uservcoin_ro_RO.ts \
-  qt/locale/uservcoin_ru.ts \
-  qt/locale/uservcoin_sk.ts \
-  qt/locale/uservcoin_sv.ts \
-  qt/locale/uservcoin_tr.ts \
-  qt/locale/uservcoin_uk.ts \
-  qt/locale/uservcoin_zh_CN.ts \
-  qt/locale/uservcoin_zh_TW.ts
+  qt/locale/userv_bg.ts \
+  qt/locale/userv_ca.ts \
+  qt/locale/userv_cs.ts \
+  qt/locale/userv_da.ts \
+  qt/locale/userv_de.ts \
+  qt/locale/userv_en.ts \
+  qt/locale/userv_en_US.ts \
+  qt/locale/userv_es.ts \
+  qt/locale/userv_fi.ts \
+  qt/locale/userv_fr_FR.ts \
+  qt/locale/userv_it.ts \
+  qt/locale/userv_ja.ts \
+  qt/locale/userv_ko_KR.ts \
+  qt/locale/userv_nl.ts \
+  qt/locale/userv_pl.ts \
+  qt/locale/userv_pt.ts \
+  qt/locale/userv_pt_BR.ts \
+  qt/locale/userv_ro_RO.ts \
+  qt/locale/userv_ru.ts \
+  qt/locale/userv_sk.ts \
+  qt/locale/userv_sv.ts \
+  qt/locale/userv_tr.ts \
+  qt/locale/userv_uk.ts \
+  qt/locale/userv_zh_CN.ts \
+  qt/locale/userv_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -107,16 +107,16 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/uservcoin.moc \
+  qt/userv.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_uservcoin.cpp
-QT_QRC = qt/uservcoin.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_uservcoin_locale.cpp
-QT_QRC_LOCALE = qt/uservcoin_locale.qrc
+QT_QRC_CPP = qt/qrc_userv.cpp
+QT_QRC = qt/userv.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_userv_locale.cpp
+QT_QRC_LOCALE = qt/userv_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -304,8 +304,8 @@ BITCOIN_QT_CPP += \
 endif
 
 RES_IMAGES = \
-  qt/res/images/uservcoin_logo.png \
-  qt/res/images/uservcoin_logo_horizontal.png \
+  qt/res/images/userv_logo.png \
+  qt/res/images/userv_logo_horizontal.png \
   qt/res/images/about.png \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
@@ -323,7 +323,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/uservcoin-qt-res.rc
+BITCOIN_RC = qt/res/userv-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -343,69 +343,69 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_uservcoin_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_userv_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# uservcoin-qt binary #
-qt_uservcoin_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# userv-qt binary #
+qt_userv_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_uservcoin_qt_SOURCES = qt/uservcoin.cpp
+qt_userv_qt_SOURCES = qt/userv.cpp
 if TARGET_DARWIN
-  qt_uservcoin_qt_SOURCES += $(BITCOIN_MM)
+  qt_userv_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_uservcoin_qt_SOURCES += $(BITCOIN_RC)
+  qt_userv_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_uservcoin_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_userv_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_uservcoin_qt_LDADD += $(LIBBITCOIN_WALLET)
+qt_userv_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_uservcoin_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_userv_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_uservcoin_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_userv_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_uservcoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_uservcoin_qt_LIBTOOLFLAGS = --tag CXX
+qt_userv_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_userv_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 .SECONDARY: $(QT_QM)
 
-qt/uservcoinstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
+qt/uservstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/uservcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/uservstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/uservcoin_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/userv_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name uservcoin_locale $(@D)/$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name userv_locale $(@D)/$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name uservcoin $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name userv $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
 
 CLEANFILES += $(CLEAN_QT)
 
-uservcoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_uservcoin_qt_OBJECTS) qt/uservcoin-qt$(EXEEXT) $(LIBBITCOINQT)
+userv_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_userv_qt_OBJECTS) qt/userv-qt$(EXEEXT) $(LIBBITCOINQT)
 
-uservcoin_qt : qt/uservcoin-qt$(EXEEXT)
+userv_qt : qt/userv-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

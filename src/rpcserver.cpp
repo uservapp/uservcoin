@@ -242,10 +242,10 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop UservCoin server.");
+            "\nStop UserV server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "UservCoin server stopping";
+    return "UserV server stopping";
 }
 
 
@@ -327,39 +327,39 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* UservCoin features */
-        {"uservcoin", "masternode", &masternode, true, true, false},
-        {"uservcoin", "listmasternodes", &listmasternodes, true, true, false},
-        {"uservcoin", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"uservcoin", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"uservcoin", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"uservcoin", "masternodedebug", &masternodedebug, true, true, false},
-        {"uservcoin", "startmasternode", &startmasternode, true, true, false},
-        {"uservcoin", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"uservcoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"uservcoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"uservcoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"uservcoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"uservcoin", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"uservcoin", "mnbudget", &mnbudget, true, true, false},
-        {"uservcoin", "preparebudget", &preparebudget, true, true, false},
-        {"uservcoin", "submitbudget", &submitbudget, true, true, false},
-        {"uservcoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"uservcoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"uservcoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"uservcoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"uservcoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"uservcoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"uservcoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"uservcoin", "checkbudgets", &checkbudgets, true, true, false},
-        {"uservcoin", "mnsync", &mnsync, true, true, false},
-        {"uservcoin", "spork", &spork, true, true, false},
-        {"uservcoin", "preparecommunityproposal", &preparecommunityproposal, true, true, false},
-        {"uservcoin", "submitcommunityproposal", &submitcommunityproposal, true, true, false},
-        {"uservcoin", "getcommunityinfo", &getcommunityinfo, true, true, false},
-        {"uservcoin", "checkcommunityproposals", &checkcommunityproposals, true, true, false},
-        {"uservcoin", "getcommunityproposalvotes", &getcommunityproposalvotes, true, true, false},
-        {"uservcoin", "mncommunityvote", &mncommunityvote, true, true, false},
+        /* UserV features */
+        {"userv", "masternode", &masternode, true, true, false},
+        {"userv", "listmasternodes", &listmasternodes, true, true, false},
+        {"userv", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"userv", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"userv", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"userv", "masternodedebug", &masternodedebug, true, true, false},
+        {"userv", "startmasternode", &startmasternode, true, true, false},
+        {"userv", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"userv", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"userv", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"userv", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"userv", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"userv", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"userv", "mnbudget", &mnbudget, true, true, false},
+        {"userv", "preparebudget", &preparebudget, true, true, false},
+        {"userv", "submitbudget", &submitbudget, true, true, false},
+        {"userv", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"userv", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"userv", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"userv", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"userv", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"userv", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"userv", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"userv", "checkbudgets", &checkbudgets, true, true, false},
+        {"userv", "mnsync", &mnsync, true, true, false},
+        {"userv", "spork", &spork, true, true, false},
+        {"userv", "preparecommunityproposal", &preparecommunityproposal, true, true, false},
+        {"userv", "submitcommunityproposal", &submitcommunityproposal, true, true, false},
+        {"userv", "getcommunityinfo", &getcommunityinfo, true, true, false},
+        {"userv", "checkcommunityproposals", &checkcommunityproposals, true, true, false},
+        {"userv", "getcommunityproposalvotes", &getcommunityproposalvotes, true, true, false},
+        {"userv", "mncommunityvote", &mncommunityvote, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
@@ -1076,7 +1076,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> uservcoin-cli " + methodname + " " + args + "\n";
+    return "> userv-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

@@ -257,6 +257,6 @@
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     </context>
 </TS>

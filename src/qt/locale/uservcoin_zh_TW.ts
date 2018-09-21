@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 USERV 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 USERV 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     <message>
         <source>Send coins to a USERV address</source>
         <translation>送出錢幣到 USERV 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 uservcoin 位址)</translation>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 userv 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,16 +602,16 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin Core</source>
-        <translation>&amp;關於 UservCoin Core</translation>
+        <source>&amp;About UserV Core</source>
+        <translation>&amp;關於 UserV Core</translation>
     </message>
     <message>
-        <source>Show information about UservCoin Core</source>
-        <translation>顯示 UservCoin Core 相關資訊</translation>
+        <source>Show information about UserV Core</source>
+        <translation>顯示 UserV Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for UservCoin</source>
-        <translation>修改 UservCoin 設定</translation>
+        <source>Modify configuration options for UserV</source>
+        <translation>修改 UserV 設定</translation>
     </message>
     <message>
         <source>Sign messages with your USERV addresses to prove you own them</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a uservcoin: URI or payment request</source>
-        <translation>打開uservcoin: 位址或付款請求 </translation>
+        <source>Open a userv: URI or payment request</source>
+        <translation>打開userv: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the UservCoin Core help message to get a list with possible UservCoin command-line options</source>
-        <translation>顯示 UservCoin Core 幫助訊息以取得 UservCoin 命令列表選項</translation>
+        <source>Show the UserV Core help message to get a list with possible UserV command-line options</source>
+        <translation>顯示 UserV Core 幫助訊息以取得 UserV 命令列表選項</translation>
     </message>
     <message>
-        <source>UservCoin Core client</source>
-        <translation>UservCoin Core 客戶端</translation>
+        <source>UserV Core client</source>
+        <translation>UserV Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     </context>
 <context>
@@ -885,8 +885,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     </context>
 <context>
@@ -949,6 +949,6 @@
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     </context>
 </TS>

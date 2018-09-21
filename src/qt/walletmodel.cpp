@@ -237,7 +237,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
                 return InvalidAmount;
             }
             total += subtotal;
-        } else { // User-entered uservcoin address / amount:
+        } else { // User-entered userv address / amount:
             if (!validateAddress(rcp.address)) {
                 return InvalidAddress;
             }
@@ -326,7 +326,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoins(WalletModelTransaction& tran
                 std::string value;
                 rcp.paymentRequest.SerializeToString(&value);
                 newTx->vOrderForm.push_back(make_pair(key, value));
-            } else if (!rcp.message.isEmpty()) // Message from normal uservcoin:URI (uservcoin:XyZ...?message=example)
+            } else if (!rcp.message.isEmpty()) // Message from normal userv:URI (userv:XyZ...?message=example)
             {
                 newTx->vOrderForm.push_back(make_pair("Message", rcp.message.toStdString()));
             }

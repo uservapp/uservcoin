@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the uservcoind tests manually, launch src/test/test_uservcoin .
+To run the uservd tests manually, launch src/test/test_userv .
 
-To add more uservcoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more uservd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the uservcoin-qt tests manually, launch src/qt/test/uservcoin-qt_test
+To run the userv-qt tests manually, launch src/qt/test/userv-qt_test
 
-To add more uservcoin-qt tests, add them to the `src/qt/test/` directory and
+To add more userv-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

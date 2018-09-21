@@ -1,2 +1,2 @@
-usr/local/bin/uservcoind usr/bin
-usr/local/bin/uservcoin-cli usr/bin
+usr/local/bin/uservd usr/bin
+usr/local/bin/userv-cli usr/bin

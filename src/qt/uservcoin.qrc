@@ -64,8 +64,8 @@
         <file alias="default">res/css/default.css</file>
     </qresource>
     <qresource prefix="/images">
-        <file alias="uservcoin_logo">res/images/uservcoin_logo.png</file>
-        <file alias="uservcoin_logo_horizontal">res/images/uservcoin_logo_horizontal.png</file>
+        <file alias="userv_logo">res/images/userv_logo.png</file>
+        <file alias="userv_logo_horizontal">res/images/userv_logo_horizontal.png</file>
         <file alias="about">res/images/about.png</file>
         <file alias="downArrow_small">res/images/downArrow_small_dark.png</file>
         <file alias="downArrow_small_white">res/images/downArrow_small.png</file>

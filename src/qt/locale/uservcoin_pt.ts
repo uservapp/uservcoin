@@ -176,8 +176,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas USERVs contra roubo por malware infectando seu computador.</translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas USERVs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -865,14 +865,14 @@
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all UservCoin specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da UservCoin (Masternodes, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all UserV specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da UserV (Masternodes, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -1219,8 +1219,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart UservCoin Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o UservCoin Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart UserV Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o UserV Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

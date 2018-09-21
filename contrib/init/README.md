@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: uservcoind.service
-Upstart: uservcoind.conf
-OpenRC:  uservcoind.openrc
-         uservcoind.openrcconf
-CentOS:  uservcoind.init
+SystemD: uservd.service
+Upstart: uservd.conf
+OpenRC:  uservd.openrc
+         uservd.openrcconf
+CentOS:  uservd.init
 
 have been made available to assist packagers in creating node packages here.
 

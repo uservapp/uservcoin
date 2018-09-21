@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017-2018 The Bitcoin Green developers
-// Copyright (c) 2018 The UservCoin developers
+// Copyright (c) 2018 The UserV developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -106,8 +106,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 1 * 60; // UservCoin: 1 day
-        nTargetSpacing = 1 * 60;  // UservCoin: 1 minutes
+        nTargetTimespan = 1 * 60; // UserV: 1 day
+        nTargetSpacing = 1 * 60;  // UserV: 1 minutes
         nMaturity = 100;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 21000000 * COIN;
@@ -155,15 +155,15 @@ public:
 	vSeeds.push_back(CDNSSeedData("seed2.uservcoin.com", "seed2.uservcoin.com"));
 	vSeeds.push_back(CDNSSeedData("seed3.uservcoin.com", "seed3.uservcoin.com"));
 
-        // UservCoin addresses start with 'V'
+        // UserV addresses start with 'V'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 70);
-        // UservCoin script addresses start with 'u'
+        // UserV script addresses start with 'u'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 130);
-        // UservCoin private keys start with 'U' or 'V' (?)
+        // UserV private keys start with 'U' or 'V' (?)
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 69);
-        // UservCoin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // UserV BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // UservCoin BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // UserV BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
         // BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
@@ -214,8 +214,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // UservCoin: 1 day
-        nTargetSpacing = 1 * 60;  // UservCoin: 1 minute
+        nTargetTimespan = 1 * 60; // UserV: 1 day
+        nTargetSpacing = 1 * 60;  // UserV: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 30;
         nMasternodeCountDrift = 4;
@@ -232,17 +232,17 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        // Testnet UservCoin addresses start with 'u'
+        // Testnet UserV addresses start with 'u'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 130);
-        // Testnet UservCoin script addresses start with 'v'
+        // Testnet UserV script addresses start with 'v'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 132);
         // Testnet private keys start with  'u' or 'v'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 131);
-        // Testnet UservCoin BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet UserV BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet UservCoin BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet UserV BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet UservCoin BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet UserV BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -288,8 +288,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // UservCoin: 1 day
-        nTargetSpacing = 1 * 60;        // UservCoin: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // UserV: 1 day
+        nTargetSpacing = 1 * 60;        // UserV: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1537509602;
         genesis.nBits = 0x1e0ffff0;

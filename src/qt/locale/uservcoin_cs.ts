@@ -176,8 +176,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše SPy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše SPy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     <message>
         <source>Send coins to a USERV address</source>
         <translation>Odeslat platbuna USERV adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a uservcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a userv: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,12 +618,12 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin Core</source>
-        <translation>&amp;O UservCoin Core</translation>
+        <source>&amp;About UserV Core</source>
+        <translation>&amp;O UserV Core</translation>
     </message>
     <message>
-        <source>Show information about UservCoin Core</source>
-        <translation>Zobraz informace o UservCoin Core</translation>
+        <source>Show information about UserV Core</source>
+        <translation>Zobraz informace o UserV Core</translation>
     </message>
     <message>
         <source>Modify configuration options for USERV</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a uservcoin: URI or payment request</source>
-        <translation>Otevřít uservcoin: URI nebo platební žádost</translation>
+        <source>Open a userv: URI or payment request</source>
+        <translation>Otevřít userv: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the UservCoin Core help message to get a list with possible UservCoin command-line options</source>
-        <translation>Zobrazit UservCoin Core pomocnou zpráv pro získání seznamu možných parametrů UservCoin pro příkazy do příkazové řádky</translation>
+        <source>Show the UserV Core help message to get a list with possible UserV command-line options</source>
+        <translation>Zobrazit UserV Core pomocnou zpráv pro získání seznamu možných parametrů UserV pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>UservCoin Core client</source>
-        <translation>UservCoin Core klient</translation>
+        <source>UserV Core client</source>
+        <translation>UserV Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (uservcoin.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (uservcoin.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (userv.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (userv.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1108,12 +1108,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     <message>
-        <source>About UservCoin Core</source>
-        <translation>O UservCoin Core</translation>
+        <source>About UserV Core</source>
+        <translation>O UserV Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1147,16 +1147,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to UservCoin Core.</source>
-        <translation>Vítejte v UservCoin Core.</translation>
+        <source>Welcome to UserV Core.</source>
+        <translation>Vítejte v UserV Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where UservCoin Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude UservCoin Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where UserV Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude UserV Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>UservCoin Core will download and store a copy of the UservCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>UservCoin Core stáhne a uloží kopii UservCoin blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>UserV Core will download and store a copy of the UserV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>UserV Core stáhne a uloží kopii UserV blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1167,8 +1167,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1469,12 +1469,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start UservCoin after logging in to the system.</source>
-        <translation>Automaticky spustit UservCoin po přihlášení do systému</translation>
+        <source>Automatically start UserV after logging in to the system.</source>
+        <translation>Automaticky spustit UserV po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start UservCoin on system login</source>
-        <translation>&amp;Spusti UservCoin při přihlášení do systému</translation>
+        <source>&amp;Start UserV on system login</source>
+        <translation>&amp;Spusti UserV při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2139,8 +2139,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Core</translation>
+        <source>UserV Core</source>
+        <translation>UserV Core</translation>
     </message>
     </context>
 <context>
@@ -2243,7 +2243,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

@@ -1,25 +1,25 @@
-# /etc/conf.d/uservcoind: config file for /etc/init.d/uservcoind
+# /etc/conf.d/uservd: config file for /etc/init.d/uservd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/uservcoin/uservcoin.conf"
+#BITCOIND_CONFIGFILE="/etc/userv/userv.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/uservcoind"
+#BITCOIND_PIDDIR="/var/run/uservd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/uservcoind.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/uservd.pid"
 
-# Where to write uservcoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/uservcoind"
+# Where to write uservd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/uservd"
 
-# User and group to own uservcoind process
-#BITCOIND_USER="uservcoin"
-#BITCOIND_GROUP="uservcoin"
+# User and group to own uservd process
+#BITCOIND_USER="userv"
+#BITCOIND_GROUP="userv"
 
-# Path to uservcoind executable
-#BITCOIND_BIN="/usr/bin/uservcoind"
+# Path to uservd executable
+#BITCOIND_BIN="/usr/bin/uservd"
 
-# Nice value to run uservcoind under
+# Nice value to run uservd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

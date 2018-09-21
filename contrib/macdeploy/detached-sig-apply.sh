@@ -5,7 +5,7 @@ UNSIGNED=$1
 SIGNATURE=$2
 ARCH=x86_64
 ROOTDIR=dist
-BUNDLE=${ROOTDIR}/UservCoin-Qt.app
+BUNDLE=${ROOTDIR}/UserV-Qt.app
 TEMPDIR=signed.temp
 OUTDIR=signed-app
 

@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * UservCoin RPC command dispatcher.
+ * UserV RPC command dispatcher.
  */
 class CRPCTable
 {

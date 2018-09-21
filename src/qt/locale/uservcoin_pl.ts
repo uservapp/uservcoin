@@ -514,16 +514,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>&amp;Rdzeń UservCoin</translation>
+        <source>UserV Core</source>
+        <translation>&amp;Rdzeń UserV</translation>
     </message>
     <message>
         <source>Send coins to a USERV address</source>
         <translation>Wyślij monety do adresu USERV</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i uservcoin:URI)</translation>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i userv:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -534,16 +534,16 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin Core</source>
+        <source>&amp;About UserV Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about UservCoin Core</source>
+        <source>Show information about UserV Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for UservCoin</source>
-        <translation>Modyfikuj opcje konfiguracji UservCoin</translation>
+        <source>Modify configuration options for UserV</source>
+        <translation>Modyfikuj opcje konfiguracji UserV</translation>
     </message>
     <message>
         <source>Sign messages with your USERV addresses to prove you own them</source>
@@ -578,8 +578,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a uservcoin: URI or payment request</source>
-        <translation>Otwórz uservcoin: URI i żądanie zapłaty</translation>
+        <source>Open a userv: URI or payment request</source>
+        <translation>Otwórz userv: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -590,12 +590,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the UservCoin Core help message to get a list with possible UservCoin command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia UservCoin, aby dostać listę możliwych opcji UservCoin command-line</translation>
+        <source>Show the UserV Core help message to get a list with possible UserV command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia UserV, aby dostać listę możliwych opcji UserV command-line</translation>
     </message>
     <message>
-        <source>UservCoin Core client</source>
-        <translation>Rdzeń UservCoin klient</translation>
+        <source>UserV Core client</source>
+        <translation>Rdzeń UserV klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -904,8 +904,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>&amp;Rdzeń UservCoin</translation>
+        <source>UserV Core</source>
+        <translation>&amp;Rdzeń UserV</translation>
     </message>
     </context>
 <context>
@@ -919,8 +919,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>&amp;Rdzeń UservCoin</translation>
+        <source>UserV Core</source>
+        <translation>&amp;Rdzeń UserV</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1161,12 +1161,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start UservCoin after logging in to the system.</source>
-        <translation>Automatycznie uruchom UservCoin po zalogowaniu do systemu</translation>
+        <source>Automatically start UserV after logging in to the system.</source>
+        <translation>Automatycznie uruchom UserV po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start UservCoin on system login</source>
-        <translation>&amp;Uruchom UservCoin podczas logowania do systemu</translation>
+        <source>&amp;Start UserV on system login</source>
+        <translation>&amp;Uruchom UserV podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1185,12 +1185,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting UservCoin.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie UservCoin</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting UserV.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie UserV</translation>
     </message>
     <message>
-        <source>Connect to the UservCoin network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią UservCoin poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the UserV network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią UserV poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1835,8 +1835,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>&amp;Rdzeń UservCoin</translation>
+        <source>UserV Core</source>
+        <translation>&amp;Rdzeń UserV</translation>
     </message>
     </context>
 <context>
@@ -1927,7 +1927,7 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

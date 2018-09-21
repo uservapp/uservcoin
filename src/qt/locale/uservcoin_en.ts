@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -806,7 +806,7 @@
     <message>
         <location line="-427"/>
         <location line="+890"/>
-        <source>UservCoin Core</source>
+        <source>UserV Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -816,7 +816,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -836,17 +836,17 @@
     </message>
     <message>
         <location line="+31"/>
-        <source>&amp;About UservCoin Core</source>
+        <source>&amp;About UserV Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about UservCoin Core</source>
+        <source>Show information about UserV Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for UservCoin</source>
+        <source>Modify configuration options for UserV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -896,7 +896,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Open a uservcoin: URI or payment request</source>
+        <source>Open a userv: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -911,17 +911,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the UservCoin Core help message to get a list with possible UservCoin command-line options</source>
+        <source>Show the UserV Core help message to get a list with possible UserV command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+214"/>
-        <source>UservCoin Core client</source>
+        <source>UserV Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+212"/>
-        <source>%n active connection(s) to UservCoin network</source>
+        <source>%n active connection(s) to UserV network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1117,7 +1117,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+476"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (uservcoin.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (userv.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1542,7 +1542,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>UservCoin Core</source>
+        <source>UserV Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1553,7 +1553,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About UservCoin Core</source>
+        <source>About UserV Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1611,17 +1611,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to UservCoin Core.</source>
+        <source>Welcome to UserV Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where UservCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where UserV Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>UservCoin Core will download and store a copy of the UservCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>UserV Core will download and store a copy of the UserV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1636,7 +1636,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>UservCoin Core</source>
+        <source>UserV Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2243,7 +2243,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the UservCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the UserV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2268,12 +2268,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-176"/>
-        <source>Automatically start UservCoin after logging in to the system.</source>
+        <source>Automatically start UserV after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start UservCoin on system login</source>
+        <source>&amp;Start UserV on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2308,7 +2308,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting UservCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting UserV.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2318,7 +2318,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+114"/>
-        <source>Connect to the UservCoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the UserV network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2517,7 +2517,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-153"/>
         <location line="+1393"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UservCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UserV network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2650,7 +2650,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start uservcoin: click-to-pay handler</source>
+        <source>Cannot start userv: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2958,7 +2958,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the UservCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the UserV debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3185,7 +3185,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the UservCoin RPC console.</source>
+        <source>Welcome to the UserV RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3301,12 +3301,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UservCoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UserV network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UservCoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UserV network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3670,7 +3670,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for UservCoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for UserV transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3974,7 +3974,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the uservcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the UservCoin network.</source>
+        <source>A message that was attached to the userv: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the UserV network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4009,7 +4009,7 @@ p, li { white-space: pre-wrap; }
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>UservCoin Core is shutting down...</source>
+        <source>UserV Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4204,7 +4204,7 @@ p, li { white-space: pre-wrap; }
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>UservCoin Core</source>
+        <source>UserV Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4229,7 +4229,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+1"/>
-        <source>The UservCoin Core developers</source>
+        <source>The UserV Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4940,9 +4940,9 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
-        <location filename="../uservcoinstrings.cpp" line="+15"/>
+        <location filename="../uservstrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -4973,7 +4973,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot obtain a lock on data directory %s. UservCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. UserV Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5158,22 +5158,22 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+4"/>
-        <source>To use uservcoind, or the -server option to uservcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use uservd, or the -server option to userv-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=uservcoinrpc
+rpcuser=uservrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;UservCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;UserV Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. UservCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. UserV Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5198,7 +5198,7 @@ for example: alertnotify=echo %%s | mail -s &quot;UservCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong UservCoin Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong UserV Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5383,7 +5383,7 @@ for example: alertnotify=echo %%s | mail -s &quot;UservCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2017-%i The UservCoin Core Developers</source>
+        <source>Copyright (C) 2017-%i The UserV Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5493,7 +5493,7 @@ for example: alertnotify=echo %%s | mail -s &quot;UservCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of UservCoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of UserV Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5633,7 +5633,7 @@ for example: alertnotify=echo %%s | mail -s &quot;UservCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. UservCoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. UserV Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5750,7 +5750,7 @@ for example: alertnotify=echo %%s | mail -s &quot;UservCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+38"/>
-        <source>Disable all UservCoin specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all UserV specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6425,7 +6425,7 @@ for example: alertnotify=echo %%s | mail -s &quot;UservCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart UservCoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart UserV Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

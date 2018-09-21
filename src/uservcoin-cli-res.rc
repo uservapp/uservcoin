@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "UservCoin"
-            VALUE "FileDescription",    "uservcoin-cli (OSS RPC client for UservCoin)"
+            VALUE "CompanyName",        "UserV"
+            VALUE "FileDescription",    "userv-cli (OSS RPC client for UserV)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "uservcoin-cli"
+            VALUE "InternalName",       "userv-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "uservcoin-cli.exe"
-            VALUE "ProductName",        "uservcoin-cli"
+            VALUE "OriginalFilename",   "userv-cli.exe"
+            VALUE "ProductName",        "userv-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

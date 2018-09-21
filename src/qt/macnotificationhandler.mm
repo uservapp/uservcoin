@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"cc.uservcoin.UservCoin-Qt";
+        return @"cc.userv.UserV-Qt";
     } else {
         return [self __bundleIdentifier];
     }

@@ -176,8 +176,8 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -598,16 +598,16 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin kerne</translation>
+        <source>UserV Core</source>
+        <translation>UserV kerne</translation>
     </message>
     <message>
         <source>Send coins to a USERV address</source>
         <translation>Send mønter til en USERV adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
-        <translation>Anmod om betaling (genrerer QR kode og UservCoin URL)</translation>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
+        <translation>Anmod om betaling (genrerer QR kode og UserV URL)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,16 +618,16 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin Core</source>
-        <translation>&amp;Om UservCoin kerne</translation>
+        <source>&amp;About UserV Core</source>
+        <translation>&amp;Om UserV kerne</translation>
     </message>
     <message>
-        <source>Show information about UservCoin Core</source>
-        <translation>Vis information om UservCoin kerne</translation>
+        <source>Show information about UserV Core</source>
+        <translation>Vis information om UserV kerne</translation>
     </message>
     <message>
-        <source>Modify configuration options for UservCoin</source>
-        <translation>Ret konfigurationsindstillinger for UservCoin</translation>
+        <source>Modify configuration options for UserV</source>
+        <translation>Ret konfigurationsindstillinger for UserV</translation>
     </message>
     <message>
         <source>Sign messages with your USERV addresses to prove you own them</source>
@@ -666,8 +666,8 @@
         <translation>ÅbnMasternode konfigurationsfil</translation>
     </message>
     <message>
-        <source>Open a uservcoin: URI or payment request</source>
-        <translation>Åbn en uservcoin URI eller betalingsanmodning</translation>
+        <source>Open a userv: URI or payment request</source>
+        <translation>Åbn en userv URI eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the UservCoin Core help message to get a list with possible UservCoin command-line options</source>
-        <translation>Vis hjelpetekster fra UservCoin kernen for at få en liste med mulige UservCoin kommandolinie-startparametre</translation>
+        <source>Show the UserV Core help message to get a list with possible UserV command-line options</source>
+        <translation>Vis hjelpetekster fra UserV kernen for at få en liste med mulige UserV kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>UservCoin Core client</source>
-        <translation>UservCoin kerneklient</translation>
+        <source>UserV Core client</source>
+        <translation>UserV kerneklient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (uservcoin.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (uservcoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (userv.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (userv.conf).</translation>
     </message>
 </context>
 <context>
@@ -1144,16 +1144,16 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin kerne</translation>
+        <source>UserV Core</source>
+        <translation>UserV kerne</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About UservCoin Core</source>
-        <translation>om UservCoin kerne</translation>
+        <source>About UserV Core</source>
+        <translation>om UserV kerne</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1199,16 +1199,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to UservCoin Core.</source>
-        <translation>Velkommen til UservCoin kerne</translation>
+        <source>Welcome to UserV Core.</source>
+        <translation>Velkommen til UserV kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where UservCoin Core will store its data.</source>
-        <translation>Da det er første gang programmet startes, kan De vælge hvor UservCoin kernen skal lagre sine data</translation>
+        <source>As this is the first time the program is launched, you can choose where UserV Core will store its data.</source>
+        <translation>Da det er første gang programmet startes, kan De vælge hvor UserV kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>UservCoin Core will download and store a copy of the UservCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>UservCoin kernen vil nu hente og gemme en kopi af UservCoin blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
+        <source>UserV Core will download and store a copy of the UserV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>UserV kernen vil nu hente og gemme en kopi af UserV blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1219,8 +1219,8 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin kerne</translation>
+        <source>UserV Core</source>
+        <translation>UserV kerne</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1539,8 +1539,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgørelsen af saldoen.</translation>
     </message>
     <message>
-        <source>Automatically open the UservCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn UservCoin klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
+        <source>Automatically open the UserV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn UserV klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1559,12 +1559,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start UservCoin after logging in to the system.</source>
-        <translation>Start UservCoin automatisk, når der logges på systemet</translation>
+        <source>Automatically start UserV after logging in to the system.</source>
+        <translation>Start UserV automatisk, når der logges på systemet</translation>
     </message>
     <message>
-        <source>&amp;Start UservCoin on system login</source>
-        <translation>&amp;start UservCoin når der logges på systemet</translation>
+        <source>&amp;Start UserV on system login</source>
+        <translation>&amp;start UserV når der logges på systemet</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1591,16 +1591,16 @@ Kontroller adressen og prøv igen.</translation>
         <translation>&amp;netværk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting UservCoin.</source>
-        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang UservCoin klienten startes</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting UserV.</source>
+        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang UserV klienten startes</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Connect to the UservCoin network through a SOCKS5 proxy.</source>
-        <translation>Tilslut UservCoin netværket gennem en SOCKS5 PROXY</translation>
+        <source>Connect to the UserV network through a SOCKS5 proxy.</source>
+        <translation>Tilslut UserV netværket gennem en SOCKS5 PROXY</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1746,8 +1746,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Indskyder- eller masternodebelønning er stadig under behandling</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UservCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med UservCoin netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UserV network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med UserV netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1813,8 +1813,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start uservcoin: click-to-pay handler</source>
-        <translation>Kan ikke starte uservcoin "klik for at betale" systemet</translation>
+        <source>Cannot start userv: click-to-pay handler</source>
+        <translation>Kan ikke starte userv "klik for at betale" systemet</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid USERV address or malformed URI parameters.</source>
@@ -2037,8 +2037,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the UservCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn UservCoin debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
+        <source>Open the UserV debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn UserV debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2205,8 +2205,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ud:</translation>
     </message>
     <message>
-        <source>Welcome to the UservCoin RPC console.</source>
-        <translation>Velkommen til UservCoin RPC konsollet</translation>
+        <source>Welcome to the UserV RPC console.</source>
+        <translation>Velkommen til UserV RPC konsollet</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2276,12 +2276,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Valgfri opmærkning som tilknyttes den nye modtageradresse.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UservCoin network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på UservCoin netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UserV network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på UserV netværket.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UservCoin network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på UservCoin netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UserV network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på UserV netværket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2557,7 +2557,7 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uSPs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uUSERV i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uSPs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for UservCoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for UserV transactions than the network can process.</source>
         <translation>Betaling af mindste transaktionsgebyr vil være fint så længe der er færre transaktioner end der er plads til i blokkene. &lt;br /&gt; Men opmærksomheden henledes på, at det kan resultere i en transaktion der aldrig bliver bekræftet i det øjeblik der er større behov for transaktioner end netværket har plads til. </translation>
     </message>
     <message>
@@ -2796,8 +2796,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Besked</translation>
     </message>
     <message>
-        <source>A message that was attached to the uservcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the UservCoin network.</source>
-        <translation>En besked, der var vedhæftet til uservcoin: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
+        <source>A message that was attached to the userv: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the UserV network.</source>
+        <translation>En besked, der var vedhæftet til userv: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2823,8 +2823,8 @@ Kontroller adressen og prøv igen.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>UservCoin Core is shutting down...</source>
-        <translation>UservCoin kernen lukker ned</translation>
+        <source>UserV Core is shutting down...</source>
+        <translation>UserV kernen lukker ned</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2973,8 +2973,8 @@ Kontroller adressen og prøv igen.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin kerne</translation>
+        <source>UserV Core</source>
+        <translation>UserV kerne</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2993,8 +2993,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>PIVX "core" udviklerne</translation>
     </message>
     <message>
-        <source>The UservCoin Core developers</source>
-        <translation>UservCoin "core" udviklerne</translation>
+        <source>The UserV Core developers</source>
+        <translation>UserV "core" udviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3525,7 +3525,7 @@ Kontroller adressen og prøv igen.</translation>
     </message>
 </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -3551,8 +3551,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Forbind til den opgivne adresse og lyt efter JSON-.RPC forbindelser. Brug [host]:port notation for IPv6. Der kan indsættes flere linier (standard: Forbind til alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. UservCoin Core is probably already running.</source>
-        <translation>Kan ikke låse datamappen %s. UservCoin core kører sandsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. UserV Core is probably already running.</source>
+        <translation>Kan ikke låse datamappen %s. UserV core kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3571,8 +3571,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Slet alle tegnebogens transaktioner og genskab kun fra blokkæden ved at tilføje -rescan i forbindes med opstart.</translation>
     </message>
     <message>
-        <source>Disable all UservCoin specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Slå alle UservCoin funktioner fra (Masternoder, SwiftTX, Budgetting)(0-1,default:%u)</translation>
+        <source>Disable all UserV specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Slå alle UserV funktioner fra (Masternoder, SwiftTX, Budgetting)(0-1,default:%u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3708,32 +3708,32 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use uservcoind, or the -server option to uservcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use uservd, or the -server option to userv-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=uservcoinrpc
+rpcuser=uservrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "UservCoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "UserV Alert" admin@foo.com
 </source>
-        <translation>For at bruge uservcoind eller -server muligheden sammen med uservcoin-qt skal der angives et rpc kodeord i konfigurationsfilen:
+        <translation>For at bruge uservd eller -server muligheden sammen med userv-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
 De anbefales at benytte følgende tilfældige kodeord
-Rpcuser=uservcoinrpc
+Rpcuser=uservrpc
 rpcpasswrd=%s
 (Det er ikke nødvendigt at huske dette kodeord)
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!
 Hvis filen ikke eksisterer, opret den med sikkerhedsindstillingen - ejer kun læserettigheder tilladelsen.
 Det anbefales tillige at vælge alertnotify til for at blive orienteret om eventuelle problemer.
-For eksempel: alertnotify=Echo %% | mail - s "UservCoin ALARM!" e-mail@administrator.dk
+For eksempel: alertnotify=Echo %% | mail - s "UserV ALARM!" e-mail@administrator.dk
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. UservCoin Core is probably already running.</source>
-        <translation>Det var ikke muligt at forbinde %s på denne computer. UservCoin kører sandsynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. UserV Core is probably already running.</source>
+        <translation>Det var ikke muligt at forbinde %s på denne computer. UserV kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 USERV.</source>
@@ -3752,8 +3752,8 @@ For eksempel: alertnotify=Echo %% | mail - s "UservCoin ALARM!" e-mail@administr
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong UservCoin Core will not work properly.</source>
-        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil UservCoin core ikke fungere ordentligt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong UserV Core will not work properly.</source>
+        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil UserV core ikke fungere ordentligt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3896,8 +3896,8 @@ For eksempel: alertnotify=Echo %% | mail - s "UservCoin ALARM!" e-mail@administr
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The UservCoin Core Developers</source>
-        <translation>Copyright (C) 2017-%i The UservCoin Core Developers</translation>
+        <source>Copyright (C) 2017-%i The UserV Core Developers</source>
+        <translation>Copyright (C) 2017-%i The UserV Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3968,8 +3968,8 @@ For eksempel: alertnotify=Echo %% | mail - s "UservCoin ALARM!" e-mail@administr
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of UservCoin Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af UservCoin core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of UserV Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af UserV core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4072,8 +4072,8 @@ For eksempel: alertnotify=Echo %% | mail - s "UservCoin ALARM!" e-mail@administr
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. UservCoin Core is shutting down.</source>
-        <translation>Initiering af sanitetskontrollen fejlede. UservCoin core lukker ned. </translation>
+        <source>Initialization sanity check failed. UserV Core is shutting down.</source>
+        <translation>Initiering af sanitetskontrollen fejlede. UserV core lukker ned. </translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4600,8 +4600,8 @@ For eksempel: alertnotify=Echo %% | mail - s "UservCoin ALARM!" e-mail@administr
         <translation>Tegnebogen er låst</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart UservCoin Core to complete</source>
-        <translation>Tegnebogen måtte genskrives. Genstart UservCoin core for at gøre færdig</translation>
+        <source>Wallet needed to be rewritten: restart UserV Core to complete</source>
+        <translation>Tegnebogen måtte genskrives. Genstart UserV core for at gøre færdig</translation>
     </message>
     <message>
         <source>Wallet options:</source>

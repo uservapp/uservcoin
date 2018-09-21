@@ -176,8 +176,8 @@
         <translation>确认钱包加密</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取SPs。</translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取SPs。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -598,16 +598,16 @@
         <translation>标签工具栏</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin 核心</translation>
+        <source>UserV Core</source>
+        <translation>UserV 核心</translation>
     </message>
     <message>
         <source>Send coins to a USERV address</source>
         <translation>发送数字货币到SP地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
-        <translation>请求支付（生成二维码和uservcoin：URIs）</translation>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
+        <translation>请求支付（生成二维码和userv：URIs）</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,16 +618,16 @@
         <translation>浏览主节点</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin Core</source>
-        <translation>&amp;关于UservCoin核心</translation>
+        <source>&amp;About UserV Core</source>
+        <translation>&amp;关于UserV核心</translation>
     </message>
     <message>
-        <source>Show information about UservCoin Core</source>
-        <translation>显示UservCoin核心的相关信息</translation>
+        <source>Show information about UserV Core</source>
+        <translation>显示UserV核心的相关信息</translation>
     </message>
     <message>
-        <source>Modify configuration options for UservCoin</source>
-        <translation>修改UservCoin的配置选项</translation>
+        <source>Modify configuration options for UserV</source>
+        <translation>修改UserV的配置选项</translation>
     </message>
     <message>
         <source>Sign messages with your USERV addresses to prove you own them</source>
@@ -666,8 +666,8 @@
         <translation>打开主节点配置文件</translation>
     </message>
     <message>
-        <source>Open a uservcoin: URI or payment request</source>
-        <translation>打开uservcoin：URI或付款请求</translation>
+        <source>Open a userv: URI or payment request</source>
+        <translation>打开userv：URI或付款请求</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>区块浏览窗口</translation>
     </message>
     <message>
-        <source>Show the UservCoin Core help message to get a list with possible UservCoin command-line options</source>
-        <translation>显示UservCoin Core帮助信息以获取可能的UservCoin命令行选项的列表</translation>
+        <source>Show the UserV Core help message to get a list with possible UserV command-line options</source>
+        <translation>显示UserV Core帮助信息以获取可能的UserV命令行选项的列表</translation>
     </message>
     <message>
-        <source>UservCoin Core client</source>
-        <translation>UservCoin核心客户端</translation>
+        <source>UserV Core client</source>
+        <translation>UserV核心客户端</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -812,15 +812,15 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin 核心</translation>
+        <source>UserV Core</source>
+        <translation>UserV 核心</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin 核心</translation>
+        <source>UserV Core</source>
+        <translation>UserV 核心</translation>
     </message>
     <message>
         <source>Error</source>
@@ -895,16 +895,16 @@ Address: %4
         <translation>如果您要禁用未经确认发送，在至少有一个确认之前&lt;br/&gt;不能更改。&lt;br/&gt;这也将影响您的余额计算。</translation>
     </message>
     <message>
-        <source>Automatically open the UservCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动打开路由器上的UservCoin钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
+        <source>Automatically open the UserV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动打开路由器上的UserV钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
         <translation>&amp;使用SOCKS5代理（默认代理）</translation>
     </message>
     <message>
-        <source>&amp;Start UservCoin on system login</source>
-        <translation>&amp;开机启动UservCoin</translation>
+        <source>&amp;Start UserV on system login</source>
+        <translation>&amp;开机启动UserV</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1038,8 +1038,8 @@ Address: %4
         <translation>您目前的支出余额</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UservCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与UservCoin网络同步，但此过程尚未完成。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UserV network after a connection is established, but this process has not completed yet.</source>
+        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与UserV网络同步，但此过程尚未完成。</translation>
     </message>
     <message>
         <source>Your current total balance</source>
@@ -1112,12 +1112,12 @@ Address: %4
         <translation>&amp;消息：</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UservCoin network.</source>
-        <translation>附加到付款请求的可选消息，将在请求打开时显示。 注意：消息不会在付款时通过UservCoin网络发送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UserV network.</source>
+        <translation>附加到付款请求的可选消息，将在请求打开时显示。 注意：消息不会在付款时通过UserV网络发送。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UservCoin network.</source>
-        <translation>附加到付款请求的可选消息，将在请求打开时显示。&lt;br&gt; 注意：消息不会在付款时通过UservCoin网络发送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UserV network.</source>
+        <translation>附加到付款请求的可选消息，将在请求打开时显示。&lt;br&gt; 注意：消息不会在付款时通过UserV网络发送。</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1252,8 +1252,8 @@ Address: %4
         <translation>消息:</translation>
     </message>
     <message>
-        <source>A message that was attached to the uservcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the UservCoin network.</source>
-        <translation>附加到uservcoin：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过UservCoin网络发送。</translation>
+        <source>A message that was attached to the userv: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the UserV network.</source>
+        <translation>附加到userv：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过UserV网络发送。</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1393,8 +1393,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin 核心</translation>
+        <source>UserV Core</source>
+        <translation>UserV 核心</translation>
     </message>
     </context>
 <context>
@@ -1473,14 +1473,14 @@ Address: %4
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>在收到相关警报时执行命令，或者看到一个很长的分叉（cmd中的%s被消息替换）</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong UservCoin Core will not work properly.</source>
-        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，UservCoin Core将无法正常工作。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong UserV Core will not work properly.</source>
+        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，UserV Core将无法正常工作。</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>

@@ -172,8 +172,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>UservCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UservCoin sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SPien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
+        <translation>UserV sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SPien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -591,16 +591,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Ydin</translation>
+        <source>UserV Core</source>
+        <translation>UserV Ydin</translation>
     </message>
     <message>
         <source>Send coins to a USERV address</source>
         <translation>Lähetä kolikkoja USERV osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and uservcoin: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja uservcoin: URIja)</translation>
+        <source>Request payments (generates QR codes and userv: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja userv: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -611,16 +611,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About UservCoin Core</source>
-        <translation>UservCoin Core &amp;ytimestä</translation>
+        <source>&amp;About UserV Core</source>
+        <translation>UserV Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about UservCoin Core</source>
-        <translation>Näytä tietoja UservCoin Ytimestä</translation>
+        <source>Show information about UserV Core</source>
+        <translation>Näytä tietoja UserV Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for UservCoin</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja UservCoin:lle</translation>
+        <source>Modify configuration options for UserV</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja UserV:lle</translation>
     </message>
     <message>
         <source>Sign messages with your USERV addresses to prove you own them</source>
@@ -659,8 +659,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a uservcoin: URI or payment request</source>
-        <translation>Avaa uservcoin: URI tai pyydä maksua</translation>
+        <source>Open a userv: URI or payment request</source>
+        <translation>Avaa userv: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -671,12 +671,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the UservCoin Core help message to get a list with possible UservCoin command-line options</source>
-        <translation>Näytä UservCoin Ydin apuviesti saadaksesi lista mahdollisista UservCoin komentolinja komennoista.</translation>
+        <source>Show the UserV Core help message to get a list with possible UserV command-line options</source>
+        <translation>Näytä UserV Ydin apuviesti saadaksesi lista mahdollisista UserV komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>UservCoin Core client</source>
-        <translation>UservCoin Ydin asiakasohjelma</translation>
+        <source>UserV Core client</source>
+        <translation>UserV Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -934,8 +934,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Ydin</translation>
+        <source>UserV Core</source>
+        <translation>UserV Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -953,12 +953,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to UservCoin Core.</source>
-        <translation>Tervetuloa UservCoin Ytimeen.</translation>
+        <source>Welcome to UserV Core.</source>
+        <translation>Tervetuloa UserV Ytimeen.</translation>
     </message>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Ydin</translation>
+        <source>UserV Core</source>
+        <translation>UserV Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1154,12 +1154,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start UservCoin after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä UservCoin kun kirjaudut sisään.</translation>
+        <source>Automatically start UserV after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä UserV kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start UservCoin on system login</source>
-        <translation>&amp;Aloita UservCoin järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start UserV on system login</source>
+        <translation>&amp;Aloita UserV järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1178,12 +1178,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting UservCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting UserV.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the UservCoin network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä UservCoin verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the UserV network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä UserV verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1400,8 +1400,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the UservCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa UservCoin debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the UserV debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa UserV debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1512,8 +1512,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the UservCoin RPC console.</source>
-        <translation>Tervetuloa UservCoin RPC konsoliin.</translation>
+        <source>Welcome to the UserV RPC console.</source>
+        <translation>Tervetuloa UserV RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1555,12 +1555,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UservCoin network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana UservCoin verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UserV network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana UserV verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UservCoin network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana UservCoin verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UserV network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana UserV verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1922,8 +1922,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>UservCoin Core is shutting down...</source>
-        <translation>UservCoin core sammuu...</translation>
+        <source>UserV Core is shutting down...</source>
+        <translation>UserV core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2064,8 +2064,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UservCoin Core</source>
-        <translation>UservCoin Ydin</translation>
+        <source>UserV Core</source>
+        <translation>UserV Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2084,8 +2084,8 @@ Please check the address and try again.</source>
         <translation>PIVX core kehittäjät</translation>
     </message>
     <message>
-        <source>The UservCoin Core developers</source>
-        <translation>UservCoin core kehittäjät</translation>
+        <source>The UserV Core developers</source>
+        <translation>UserV core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2388,7 +2388,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>uservcoin-core</name>
+    <name>userv-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2438,8 +2438,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of UservCoin Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version UservCoin Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of UserV Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version UserV Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

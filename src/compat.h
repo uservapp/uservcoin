@@ -7,7 +7,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/uservcoin-config.h"
+#include "config/userv-config.h"
 #endif
 
 #ifdef WIN32

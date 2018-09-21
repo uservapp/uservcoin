@@ -1,19 +1,19 @@
 [Unit]
-Description=UservCoin's distributed currency daemon
+Description=UserV's distributed currency daemon
 After=network.target
 
 [Service]
-User=uservcoin
-Group=uservcoin
+User=userv
+Group=userv
 
 Type=forking
-PIDFile=/var/lib/uservcoind/uservcoind.pid
+PIDFile=/var/lib/uservd/uservd.pid
 
-ExecStart=/usr/bin/uservcoind -daemon -pid=/var/lib/uservcoind/uservcoind.pid \
-          -conf=/etc/uservcoin/uservcoin.conf -datadir=/var/lib/uservcoind
+ExecStart=/usr/bin/uservd -daemon -pid=/var/lib/uservd/uservd.pid \
+          -conf=/etc/userv/userv.conf -datadir=/var/lib/uservd
 
-ExecStop=-/usr/bin/uservcoin-cli -conf=/etc/uservcoin/uservcoin.conf \
-         -datadir=/var/lib/uservcoind stop
+ExecStop=-/usr/bin/userv-cli -conf=/etc/userv/userv.conf \
+         -datadir=/var/lib/uservd stop
 
 Restart=always
 PrivateTmp=true

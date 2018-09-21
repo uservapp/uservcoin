@@ -1,7 +1,7 @@
 Masternode Budget API
 =======================
 
-UservCoin now supports full decentralized budgets that are paid directly from the blockchain via superblocks once per month.
+UserV now supports full decentralized budgets that are paid directly from the blockchain via superblocks once per month.
 
 Budgets go through a series of stages before being paid:
 * prepare - create a special transaction that destroys coins in order to make a proposal
@@ -16,7 +16,7 @@ Budgets go through a series of stages before being paid:
 Prepare collateral transaction
 ------------------------
 
-mnbudget prepare \<proposal-name\> \<url\> \<payment_count\> \<block_start\> \<uservcoin_address\> \<monthly_payment_uservcoin\> [use_ix(true|false)]
+mnbudget prepare \<proposal-name\> \<url\> \<payment_count\> \<block_start\> \<userv_address\> \<monthly_payment_userv\> [use_ix(true|false)]
 
 Example:
 ```
@@ -32,7 +32,7 @@ In this transaction we prepare collateral for "_cool-project_". This proposal wi
 Submit proposal to network
 ------------------------
 
-mnbudget submit \<proposal-name\> \<url\> \<payment_count\> \<block_start\> \<uservcoin_address\> \<monthly_payment_uservcoin\> \<collateral_hash\>
+mnbudget submit \<proposal-name\> \<url\> \<payment_count\> \<block_start\> \<userv_address\> \<monthly_payment_userv\> \<collateral_hash\>
 
 Example:
 ```
@@ -148,9 +148,9 @@ The following new RPC commands are supported:
 - mnbudget "command"... ( "passphrase" )
  * prepare            - Prepare proposal for network by signing and creating tx
  * submit             - Submit proposal for network
- * vote-many          - Vote on a UservCoin initiative
- * vote-alias         - Vote on a UservCoin initiative
- * vote               - Vote on a UservCoin initiative/budget
+ * vote-many          - Vote on a UserV initiative
+ * vote-alias         - Vote on a UserV initiative
+ * vote               - Vote on a UserV initiative/budget
  * getvotes           - Show current masternode budgets
  * getinfo            - Show current masternode budgets
  * show               - Show all budgets
