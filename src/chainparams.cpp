@@ -53,12 +53,14 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //    timestamp before)
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of (0, uint256("0x00000291d02cc6230a9357a6552de601c5d48a76cd49e8a65bd81ed309091983"));
+    boost::assign::map_list_of
+	(0, 	uint256("0x00000291d02cc6230a9357a6552de601c5d48a76cd49e8a65bd81ed309091983"))
+	(95000,	uint256("0xe9bd5ed5ac7a7c198d240b78eb61cc739e0f4f44f8ce8f34a284bb069c155039"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1537509600, // * UNIX timestamp of last checkpoint block
-    0,          // * total number of transactions between genesis and last checkpoint
+    1543282137, // * UNIX timestamp of last checkpoint block
+    201179,     // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -150,10 +152,10 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x1f1f47c6e4b9f9fdcd8b64748b1a66e0cb1a47f62e793349297e41ea2c37929c"));
 
         // DNS Seeding
-        vSeeds.push_back(CDNSSeedData("seed.uservcoin.com", "seed.uservcoin.com"));
-        vSeeds.push_back(CDNSSeedData("seed1.uservcoin.com", "seed1.uservcoin.com"));
-	vSeeds.push_back(CDNSSeedData("seed2.uservcoin.com", "seed2.uservcoin.com"));
-	vSeeds.push_back(CDNSSeedData("seed3.uservcoin.com", "seed3.uservcoin.com"));
+		vSeeds.push_back(CDNSSeedData("uservcoin.com", "seed.uservcoin.com"));
+		vSeeds.push_back(CDNSSeedData("seed1.uservcoin.com", "seed1.uservcoin.com"));
+		vSeeds.push_back(CDNSSeedData("seed2.uservcoin.com", "seed2.uservcoin.com"));
+		vSeeds.push_back(CDNSSeedData("seed3.uservcoin.com", "seed3.uservcoin.com"));
 
         // UserV addresses start with 'V'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 70);
