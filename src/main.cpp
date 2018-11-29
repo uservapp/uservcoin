@@ -1654,8 +1654,10 @@ int64_t GetBlockValue(int nHeight)
         nSubsidy = 36 * COIN;
 	} else if (nHeight < 140000 && nHeight >= 130000) {
         nSubsidy = 30 * COIN;
+	} else if (nHeight < 180000 && nHeight >= 140000) {
+        nSubsidy = 20 * COIN;
 	} else {
-        nSubsidy = 30 * COIN;
+        nSubsidy = 15 * COIN;
     }
     return nSubsidy;
 
@@ -1678,11 +1680,14 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     // No rewards till masternode activation.
     if (nHeight < Params().LAST_POW_BLOCK() || blockValue == 0)
         return 0;
-	else if (nHeight <= 50000)
+	else if (nHeight <= 50000) {
         ret = blockValue * 0.9; // 90% of block reward
-    else
-        ret = blockValue * 0.95; // 50% of block reward
-
+    } else if (nHeight <= 115000 && nHeight > 50000) {
+        ret = blockValue * 0.95; // 95% of block reward
+	} else {
+		ret = blockValue * 0.85; // 85% of block reward
+	}
+	
     return ret;
 }
 
