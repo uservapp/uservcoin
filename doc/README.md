@@ -26,7 +26,7 @@ Drag UserV-Qt to your applications folder, and then run UserV-Qt.
 
 ### Need Help?
 
-* Join our Discord server [Discord Server](https://discordapp.com/invite/H9MaNZv)
+* Join our Discord server [Discord Server](https://discordapp.com/invite/)
 
 Building
 ---------------------

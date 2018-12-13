@@ -22,7 +22,7 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://uservcoin.com/
+Homepage: http://www.savebitcoin.io
 Vcs-Git: git://github.com/uservapp/uservcoin.git
 Vcs-Browser: http://github.com/uservapp/uservcoin
 

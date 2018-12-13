@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2015 The Bitcoin developers
 // Copyright (c) 2009-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Bitcoin Green developers
+// Copyright (c) 2017-2017 The Bitcoin Green developers
 // Copyright (c) 2018 The UserV developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -204,6 +204,18 @@ int CommandLineRPC(int argc, char* argv[])
                         throw CConnectionFailed("server in warmup");
                     strPrint = "error: " + error.write();
                     nRet = abs(code);
+
+                    if(error.isObject()) {
+
+                        UniValue errCode = find_value(error, "code");
+                        UniValue errMsg  = find_value(error, "message");
+                        strPrint = errCode.isNull() ? "" : "error code: " + errCode.getValStr() + "\n";
+
+                        if (errMsg.isStr()) {
+                            strPrint += "error message:\n" + errMsg.get_str();
+                        }
+                    }
+
                 } else {
                     // Result
                     if (result.isNull())

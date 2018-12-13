@@ -51,8 +51,8 @@ static bool AppInitRawTx(int argc, char* argv[])
         // First part of help message is specific to this utility
         std::string strUsage = _("UserV Core userv-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  userv-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded userv transaction") + "\n" +
-                               "  userv-tx [options] -create [commands]   " + _("Create hex-encoded userv transaction") + "\n" +
+                               "  userv-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded UserV transaction") + "\n" +
+                               "  userv-tx [options] -create [commands]   " + _("Create hex-encoded UserV transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -449,8 +449,22 @@ static void MutateTxSign(CMutableTransaction& tx, const string& flagStr)
     tx = mergedTx;
 }
 
+class Secp256k1Init
+{
+    ECCVerifyHandle globalVerifyHandle;
+
+public:
+    Secp256k1Init() {
+        ECC_Start();
+    }
+    ~Secp256k1Init() {
+        ECC_Stop();
+    }
+};
+
 static void MutateTx(CMutableTransaction& tx, const string& command, const string& commandVal)
 {
+    boost::scoped_ptr<Secp256k1Init> ecc;
     if (command == "nversion")
         MutateTxVersion(tx, commandVal);
     else if (command == "locktime")
@@ -468,8 +482,10 @@ static void MutateTx(CMutableTransaction& tx, const string& command, const strin
     else if (command == "outscript")
         MutateTxAddOutScript(tx, commandVal);
 
-    else if (command == "sign")
+    else if (command == "sign") {
+        if (!ecc) { ecc.reset(new Secp256k1Init()); }
         MutateTxSign(tx, commandVal);
+    }
 
     else if (command == "load")
         RegisterLoad(commandVal);
@@ -554,7 +570,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded userv transaction
+            // param: hex-encoded UserV transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>UserV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your USERVs from being stolen by malware infecting your computer.</source>
-        <translation>UserV se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše SPy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <translation>UserV se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše USERVy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR USERV&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE SPy&lt;/b&gt;!</translation>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE USERVy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>

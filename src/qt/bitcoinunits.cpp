@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Bitcoin Green developers
+// Copyright (c) 2017-2017 The Bitcoin Green developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,11 +42,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case USERV:
-        return QString("unit");
+        return QString("userv");
     case mUSERV:
-        return QString("munit");
+        return QString("muserv");
     case uUSERV:
-        return QString::fromUtf8("uunit");
+        return QString::fromUtf8("uuserv");
     default:
         return QString("???");
     }
@@ -70,9 +70,9 @@ QString BitcoinUnits::name(int unit)
         case USERV:
             return QString("tUSERV");
         case mUSERV:
-            return QString("mtUSERV");
+            return QString("tmUSERV");
         case uUSERV:
-            return QString::fromUtf8("μtUSERV");
+            return QString::fromUtf8("tμUSERV");
         default:
             return QString("???");
         }

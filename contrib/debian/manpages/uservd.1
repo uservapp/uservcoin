@@ -177,7 +177,7 @@ Returns a list of the last ['count'] transactions for 'account' \- for all accou
     "message"       : message associated with transaction (only for send).
     "to"            : message-to associated with transaction (only for send).
 
-    *note: requires userv 1.0.0.1 or later.
+    *note: requires UserV 1.0.0.1 or later.
 .TP
 \fBmove <'fromaccount'> <'toaccount'> <'amount'> ['minconf=1'] ['comment']\fR
 Moves funds between accounts.
@@ -189,7 +189,7 @@ Sends amount from account's balance to 'uservaddress'. This method will fail if 
 Sends amount from the server's available balance to 'uservaddress'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.
 .TP
 \fBstop\fR
-Stops the userv server.
+Stops the UserV server.
 .TP
 \fBvalidateaddress 'uservaddress'\fR
 Checks that 'uservaddress' looks like a proper userv address. Returns an object containing:

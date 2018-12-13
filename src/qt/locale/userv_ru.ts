@@ -1713,10 +1713,6 @@ Please check the address and try again.</source>
         <source>Form</source>
         <translation>Вид</translation>
     </message>
-	<message>
-        <source>Balances</source>
-        <translation>Балансы</translation>
-    </message>
     <message>
         <source>Available:</source>
         <translation>Доступно:</translation>
@@ -2944,7 +2940,7 @@ Please check the address and try again.</source>
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) %i The UserV Core Developers</source>
+        <source>Copyright (C) 2017-%i The UserV Core Developers</source>
         <translation>Copyright (C) 2017-%i Разработчики UserV Core</translation>
     </message>
     <message>

@@ -30,7 +30,6 @@ from argparse import ArgumentParser
 
 # This is ported from the original macdeployqt with modifications
 
-
 class FrameworkInfo(object):
     def __init__(self):
         self.frameworkDirectory = ""
@@ -160,7 +159,6 @@ class FrameworkInfo(object):
 
         return info
 
-
 class ApplicationBundleInfo(object):
     def __init__(self, path):
         self.path = path
@@ -170,7 +168,6 @@ class ApplicationBundleInfo(object):
             raise RuntimeError("Could not find bundle binary for " + path)
         self.resourcesPath = os.path.join(path, "Contents", "Resources")
         self.pluginPath = os.path.join(path, "Contents", "PlugIns")
-
 
 class DeploymentInfo(object):
     def __init__(self):
@@ -209,7 +206,6 @@ class DeploymentInfo(object):
                     return True
         return False
 
-
 def getFrameworks(binaryPath, verbose):
     if verbose >= 3:
         print("Inspecting with otool: " + binaryPath)
@@ -239,7 +235,6 @@ def getFrameworks(binaryPath, verbose):
 
     return libraries
 
-
 def runInstallNameTool(action, *args):
     installnametoolbin = os.getenv("INSTALLNAMETOOL", "install_name_tool")
     subprocess.check_call([installnametoolbin, "-" + action] + list(args))
@@ -253,7 +248,6 @@ def changeInstallName(oldName, newName, binaryPath, verbose):
         print(" to", newName)
     runInstallNameTool("change", oldName, newName, binaryPath)
 
-
 def changeIdentification(id, binaryPath, verbose):
     if verbose >= 3:
         print("Using install_name_tool:")
@@ -261,14 +255,12 @@ def changeIdentification(id, binaryPath, verbose):
         print(" to", id)
     runInstallNameTool("id", id, binaryPath)
 
-
 def runStrip(binaryPath, verbose):
     stripbin = os.getenv("STRIP", "strip")
     if verbose >= 3:
         print("Using strip:")
         print(" stripped", binaryPath)
     subprocess.check_call([stripbin, "-x", binaryPath])
-
 
 def copyFramework(framework, path, verbose):
     if framework.sourceFilePath.startswith("Qt"):
@@ -336,7 +328,6 @@ def copyFramework(framework, path, verbose):
 
     return toPath
 
-
 def deployFrameworks(frameworks, bundlePath, binaryPath, strip, verbose, deploymentInfo=None):
     if deploymentInfo is None:
         deploymentInfo = DeploymentInfo()
@@ -386,7 +377,6 @@ def deployFrameworks(frameworks, bundlePath, binaryPath, strip, verbose, deploym
 
     return deploymentInfo
 
-
 def deployFrameworksForAppBundle(applicationBundle, strip, verbose):
     frameworks = getFrameworks(applicationBundle.binaryPath, verbose)
     if len(frameworks) == 0 and verbose >= 1:
@@ -394,7 +384,6 @@ def deployFrameworksForAppBundle(applicationBundle, strip, verbose):
         return DeploymentInfo()
     else:
         return deployFrameworks(frameworks, applicationBundle.path, applicationBundle.binaryPath, strip, verbose)
-
 
 def deployPlugins(appBundleInfo, deploymentInfo, strip, verbose):
     # Lookup available plugins, exclude unneeded
