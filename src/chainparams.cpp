@@ -153,12 +153,12 @@ public:
 
         // DNS Seeding
 		// vSeeds.push_back(CDNSSeedData("uservcoin.com", "seed.uservcoin.com"));
-		// vSeeds.push_back(CDNSSeedData("seed1.uservcoin.com", "seed1.uservcoin.com"));
-		// vSeeds.push_back(CDNSSeedData("seed2.uservcoin.com", "seed2.uservcoin.com"));
-		// vSeeds.push_back(CDNSSeedData("seed3.uservcoin.com", "seed3.uservcoin.com"));
+		vSeeds.push_back(CDNSSeedData("seed1.uservcoin.com", "seed1.uservcoin.com"));
+		vSeeds.push_back(CDNSSeedData("seed2.uservcoin.com", "seed2.uservcoin.com"));
+		vSeeds.push_back(CDNSSeedData("seed3.uservcoin.com", "seed3.uservcoin.com"));
 		
-		vFixedSeeds.clear();
-        vSeeds.clear();
+		// vFixedSeeds.clear();
+        // vSeeds.clear();
 
         // UserV addresses start with 'V'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 70);
