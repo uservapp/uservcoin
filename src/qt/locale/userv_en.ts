@@ -5238,8 +5238,8 @@ for example: alertnotify=echo %%s | mail -s &quot;UserV Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>(46120 could be used only on mainnet)</source>
-        <translation type="unfinished">(46120 could be used only on mainnet)</translation>
+        <source>(46220 could be used only on mainnet)</source>
+        <translation type="unfinished">(46220 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5253,7 +5253,7 @@ for example: alertnotify=echo %%s | mail -s &quot;UserV Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 46120 for mainnet)</source>
+        <source>(must be 46220 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

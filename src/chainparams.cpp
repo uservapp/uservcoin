@@ -100,7 +100,7 @@ public:
         pchMessageStart[2] = 0xc4;
         pchMessageStart[3] = 0x3b;
         vAlertPubKey = ParseHex("042055fda8ad0a75df726caed99fb3ab6cb798f0124ceb18feb372b8427a97042f7a9fae98721c5082631695bed657d34dd8716856d66045fed236500ee9fc284b");
-        nDefaultPort = 46120;
+        nDefaultPort = 46220;
         bnProofOfWorkLimit = ~uint256(0) >> 16;
         nSubsidyHalvingInterval = 1050000;
         nMaxReorganizationDepth = 100;
@@ -152,10 +152,13 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x1f1f47c6e4b9f9fdcd8b64748b1a66e0cb1a47f62e793349297e41ea2c37929c"));
 
         // DNS Seeding
-		vSeeds.push_back(CDNSSeedData("uservcoin.com", "seed.uservcoin.com"));
-		vSeeds.push_back(CDNSSeedData("seed1.uservcoin.com", "seed1.uservcoin.com"));
-		vSeeds.push_back(CDNSSeedData("seed2.uservcoin.com", "seed2.uservcoin.com"));
-		vSeeds.push_back(CDNSSeedData("seed3.uservcoin.com", "seed3.uservcoin.com"));
+		// vSeeds.push_back(CDNSSeedData("uservcoin.com", "seed.uservcoin.com"));
+		// vSeeds.push_back(CDNSSeedData("seed1.uservcoin.com", "seed1.uservcoin.com"));
+		// vSeeds.push_back(CDNSSeedData("seed2.uservcoin.com", "seed2.uservcoin.com"));
+		// vSeeds.push_back(CDNSSeedData("seed3.uservcoin.com", "seed3.uservcoin.com"));
+		
+		vFixedSeeds.clear();
+        vSeeds.clear();
 
         // UserV addresses start with 'V'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 70);
@@ -211,7 +214,7 @@ public:
         pchMessageStart[2] = 0xb2;
         pchMessageStart[3] = 0x4d;
         vAlertPubKey = ParseHex("047bffb810c9748bbe0a6e71a2123aef2df994e0a7cdca023748b71274e59013eba139ba8c94b04aeedb81fd07a66abf98a1cf017d231848d2e19d02184bbdd145");
-        nDefaultPort = 47120;
+        nDefaultPort = 47220;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;

@@ -203,10 +203,10 @@ QT_TRANSLATE_NOOP("userv-core", ""
 QT_TRANSLATE_NOOP("userv-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("userv-core", "(46120 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("userv-core", "(46220 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("userv-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("userv-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("userv-core", "(must be 46120 for mainnet)"),
+QT_TRANSLATE_NOOP("userv-core", "(must be 46220 for mainnet)"),
 QT_TRANSLATE_NOOP("userv-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("userv-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("userv-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
